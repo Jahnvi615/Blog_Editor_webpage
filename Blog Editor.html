@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Editor</title>
+    <link rel="stylesheet" type="text/css" href="Blog Editor.css" />
+  </head>
+  <body>
+    <center>
+      <h2>Blog Editor</h2>
+    </center>
+    <form id="blogForm">
+      <textarea
+        id="contentInput"
+        placeholder="Enter your blog content..."
+      ></textarea>
+      Image
+      <input type="file" id="fileInput" />
+      Video
+      <input type="file" id="videoInput" />
+      <button type="submit">Publish</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+    <script src="Blog Editor.js"></script>
+  </body>
+</html>
+
